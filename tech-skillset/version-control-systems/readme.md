@@ -41,8 +41,11 @@ In coding, we don’t want to lose work — we may need to revert our changes or
 | `git push` | Send local commits to remote |
 | `git reset --hard <commit>` | Revert to an older commit (dangerous) |
 | `git stash` | Save temporary changes |
-| `git diff` | Show what changed |
-
+| `git diff` | Show what changed | 
+| `git show HEAD` | Show the latest commit details |
+| `git diff HEAD` | See what’s changed since the last commit |
+| `git reset --hard HEAD` | Discard all uncommitted changes |
+| `git checkout HEAD <file>` | Restore a file to its last committed state |
 ---
 
 # Practice Tools
